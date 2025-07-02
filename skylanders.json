@@ -1,0 +1,162 @@
+[
+  {
+    "Nome": "Spyro",
+    "Elemento": "Magia",
+    "Imagem": "Imagens/Magia01.jpg"
+  },
+  {
+    "Nome": "Double Trouble",
+    "Elemento": "Magia",
+    "Imagem": "Imagens/Magia02.jpg"
+  },
+  {
+    "Nome": "Wrecking Ball",
+    "Elemento": "Magia",
+    "Imagem": "Imagens/Magia03.jpg"
+  },
+  {
+    "Nome": "Voodood",
+    "Elemento": "Magia",
+    "Imagem": "Imagens/Magia04.jpg"
+  },
+  {
+    "Nome": "Bash",
+    "Elemento": "Terra",
+    "Imagem": "Imagens/Terra01.jpg"
+  },
+  {
+    "Nome": "Dino-rang",
+    "Elemento": "Terra",
+    "Imagem": "Imagens/Terra02.jpg"
+  },
+  {
+    "Nome": "Prism Break",
+    "Elemento": "Terra",
+    "Imagem": "Imagens/Terra03.jpg"
+  },
+  {
+    "Nome": "Terrafin",
+    "Elemento": "Terra",
+    "Imagem": "Imagens/Terra04.jpg"
+  },
+  {
+    "Nome": "Hex",
+    "Elemento": "Morto-Vivo",
+    "Imagem": "Imagens/Morto-Vivo01.jpg"
+  },
+  {
+    "Nome": "Cynder",
+    "Elemento": "Morto-Vivo",
+    "Imagem": "Imagens/Morto-Vivo02.jpg"
+  },
+  {
+    "Nome": "Chop Chop",
+    "Elemento": "Morto-Vivo",
+    "Imagem": "Imagens/Morto-Vivo03.jpg"
+  },
+  {
+    "Nome": "Ghost Roaster",
+    "Elemento": "Morto-Vivo",
+    "Imagem": "Imagens/Morto-Vivo04.jpg"
+  },
+  {
+    "Nome": "Camo",
+    "Elemento": "Vida",
+    "Imagem": "Imagens/Vida01.jpg"
+  },
+  {
+    "Nome": "Stump Smash",
+    "Elemento": "Vida",
+    "Imagem": "Imagens/Vida02.jpg"
+  },
+  {
+    "Nome": "Zook",
+    "Elemento": "Vida",
+    "Imagem": "Imagens/Vida03.jpg"
+  },
+  {
+    "Nome": "Stealth Elf",
+    "Elemento": "Vida",
+    "Imagem": "Imagens/Vida04.jpg"
+  },
+  {
+    "Nome": "Ignitor",
+    "Elemento": "Fogo",
+    "Imagem": "Imagens/Fogo01.jpg"
+  },
+  {
+    "Nome": "Sunburn",
+    "Elemento": "Fogo",
+    "Imagem": "Imagens/Fogo02.jpg"
+  },
+  {
+    "Nome": "Flameslinger",
+    "Elemento": "Fogo",
+    "Imagem": "Imagens/Fogo03.jpg"
+  },
+  {
+    "Nome": "Eruptor",
+    "Elemento": "Fogo",
+    "Imagem": "Imagens/Fogo04.jpg"
+  },
+  {
+    "Nome": "Slam Bam",
+    "Elemento": "Água",
+    "Imagem": "Imagens/Água01.jpg"
+  },
+  {
+    "Nome": "Zap",
+    "Elemento": "Água",
+    "Imagem": "Imagens/Água02.jpg"
+  },
+  {
+    "Nome": "Wham-shell",
+    "Elemento": "Água",
+    "Imagem": "Imagens/Água03.jpg"
+  },
+  {
+    "Nome": "Gill Grunt",
+    "Elemento": "Água",
+    "Imagem": "Imagens/Água04.jpg"
+  },
+  {
+    "Nome": "Whirlwind",
+    "Elemento": "Ar",
+    "Imagem": "Imagens/Ar01.jpg"
+  },
+  {
+    "Nome": "Warnado",
+    "Elemento": "Ar",
+    "Imagem": "Imagens/Ar02.jpg"
+  },
+  {
+    "Nome": "Sonic Boom",
+    "Elemento": "Ar",
+    "Imagem": "Imagens/Ar03.jpg"
+  },
+  {
+    "Nome": "Lighting Rod",
+    "Elemento": "Ar",
+    "Imagem": "Imagens/Ar04.jpg"
+  },
+  {
+    "Nome": "Boomer",
+    "Elemento": "Tecnologia",
+    "Imagem": "Imagens/Tecnologia01.jpg"
+  },
+  {
+    "Nome": "Drill Sergeant",
+    "Elemento": "Tecnologia",
+    "Imagem": "Imagens/Tecnologia02.jpg"
+  },
+  {
+    "Nome": "Drobot",
+    "Elemento": "Tecnologia",
+    "Imagem": "Imagens/Tecnologia03.jpg"
+  },
+  {
+    "Nome": "Trigger Happy",
+    "Elemento": "Tecnologia",
+    "Imagem": "Imagens/Tecnologia04.jpg"
+  }
+]
