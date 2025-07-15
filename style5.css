@@ -1,0 +1,96 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0b0b1d, #1a1f3c);
+      color: #e0e0e0;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+
+    header {
+      background: #0c1024;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #42d1f5;
+    }
+
+    header h1 {
+      color: #42d1f5;
+      font-size: 26px;
+    }
+
+    nav a {
+      color: #e0e0e0;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff56f6;
+    }
+
+    .banner {
+      background: linear-gradient(to right, #1b263b, #415a77);
+      padding: 60px 20px;
+      text-align: center;
+      color: #f0f0f0;
+    }
+
+    .banner h2 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .tips-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .tip-card {
+      background: #232746;
+      border-left: 4px solid #42d1f5;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .tip-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px #42d1f59f;
+    }
+
+    .tip-card h4 {
+      color: #42d1f5;
+      margin-bottom: 10px;
+    }
+
+    .tip-card p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #0c1024;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+      margin-top: 60px;
+      border-top: 1px solid #333;
+    }
