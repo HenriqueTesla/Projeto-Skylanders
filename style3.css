@@ -1,85 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('Imagens/image 3 (3).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: block;
+  min-height: 100vh;
+}
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+svg {
+  height: 20px;
+  fill: white;
+align-items:end;
+}
 
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #1a1a1a;
-      color: #f0f0f0;
-      line-height: 1.6;
-    }
+.container {
 
-    header {
-      background: #111;
-      padding: 20px 40px;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #333;
-    }
+  width: 100%;
+padding: 5vh 10vh ;
+  position: relative;
+}
 
-    header h1 {
-      color: #42d1f5;
-      font-size: 24px;
-    }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
 
-    nav a {
-      color: #f0f0f0;
-      margin-left: 20px;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
+.btn-voltar {
+  display: inline-block;
+  color: #d5b3ff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
 
-    nav a:hover {
-      color: #42d1f5;
-    }
+.btn-voltar:hover {
+  color: #ffffff;
+}
 
-    .hero {
-      background: url('https://static.wikia.nocookie.net/skylanders/images/f/f6/Skylanders-Wallpaper-HD.jpg') center/cover no-repeat;
-      height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-    }
+.logo {
+  width: 150px;
+  height: auto;
+}
 
-    .hero h2 {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 20px;
-      border-radius: 10px;
-      font-size: 32px;
-    }
+main h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
 
-    .content {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+main p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
 
-    .content h3 {
-      color: #42d1f5;
-      margin-bottom: 20px;
-      font-size: 24px;
-    }
-
-    .content p {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-
-    footer {
-      background: #111;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #888;
-      margin-top: 40px;
-      border-top: 1px solid #333;
-    }
+main {
+  padding: 10vh 0vh;
+}
