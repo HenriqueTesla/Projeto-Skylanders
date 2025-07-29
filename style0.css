@@ -1,19 +1,20 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
+body {
+  background: linear-gradient(to bottom, #2e003e, #4d0066);
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .tela-inicial {
-  background-image: url('Imagens/!\ Telão.jpg');
+  height: calc(100vh - 40px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

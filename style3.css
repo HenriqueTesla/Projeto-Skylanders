@@ -3,8 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-image: url('Imagens/image 3 (3).png');
+  background-image: url('Skylanders/História\ .png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,13 +19,12 @@ body {
 svg {
   height: 20px;
   fill: white;
-align-items:end;
+  align-items:end;
 }
 
 .container {
-
   width: 100%;
-padding: 5vh 10vh ;
+  padding: 5vh 10vh ;
   position: relative;
 }
 

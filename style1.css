@@ -6,6 +6,7 @@
 }
 
 body, html {
+  background: linear-gradient(to bottom, #2e003e, #4d0066);
   height: 100%;
 }
 
