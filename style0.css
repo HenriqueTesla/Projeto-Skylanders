@@ -1,28 +1,25 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.tela-inicial {
+  background-image: url('Imagens/!\ Telão.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
 }
 
-.container {
-  text-align: center;
-}
-
-.container img {
-  max-width: 90%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-  width: 600px; /* Define um tamanho fixo, mas ainda responsivo com max-width */
-}
-
-.container img:hover {
-  transform: scale(1.05);
-  cursor: pointer;
+.logo {
+  width: 300px;
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
 }

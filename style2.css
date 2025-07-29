@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 body {
-  background: linear-gradient(to right, #1e1f26, #323339);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #fff;
+  background: linear-gradient(to bottom, #2e003e, #4d0066);
+  color: white;
   padding: 20px;
   min-height: 100vh;
 }
@@ -15,62 +15,53 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 30px;
-  color: #f9f9f9;
-  font-size: 2.8rem;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  font-size: 2rem;
 }
 
 #lista {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px; /* Menor espaço entre os cards */
-  padding: 0 20px;
-  justify-items: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* Card */
 .personagem {
-  background-color: #2c2f36;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  padding: 20px;
-  width: 240px; /* CARD MAIOR */
+  background-color: #5c1a85;
+  border-radius: 20px;
+  padding: 15px;
   text-align: center;
-  transition: transform 0.3s ease;
-  color: #fff;
-  border: 1px solid #444;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s;
 }
 
 .personagem:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
-/* Imagem */
-.personagem img {
-  width: 160px;  /* Imagem maior */
-  height: 160px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin: 10px 0;
-}
-
-/* Texto */
 .personagem strong {
-  color: #ffd700;
   display: block;
-  margin-bottom: 4px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.personagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.btn-voltar {
+  display: inline-block;
+  color: #d5b3ff;
+  text-decoration: none;
   font-size: 1.1rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  transition: color 0.3s ease;
 }
 
-/* Responsivo */
-@media (max-width: 1000px) {
-  #lista {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  #lista {
-    grid-template-columns: 1fr;
-  }
+.btn-voltar:hover {
+  color: #ffffff;
 }
