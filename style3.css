@@ -19,12 +19,12 @@ body {
 svg {
   height: 20px;
   fill: white;
-  align-items:end;
+  align-items: end;
 }
 
 .container {
   width: 100%;
-  padding: 5vh 10vh ;
+  padding: 5vh 10vh;
   position: relative;
 }
 
@@ -33,6 +33,11 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
 }
 
 .btn-voltar {
@@ -49,9 +54,8 @@ header {
   color: #ffffff;
 }
 
-.logo {
-  width: 150px;
-  height: auto;
+main {
+  padding: 10vh 0vh;
 }
 
 main h1 {
@@ -63,8 +67,4 @@ main p {
   font-size: 1rem;
   line-height: 1.6;
   max-width: 500px;
-}
-
-main {
-  padding: 10vh 0vh;
 }
