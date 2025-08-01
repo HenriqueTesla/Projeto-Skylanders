@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(to bottom, #2e003e, #4d0066);
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.btn-voltar {
+  display: inline-block;
+  color: #d5b3ff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.btn-voltar:hover {
+  color: #ffffff;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
